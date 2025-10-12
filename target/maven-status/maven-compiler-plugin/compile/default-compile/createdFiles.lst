@@ -1,6 +1,0 @@
-com/ecommerce/ecommerce/controller/CategoryController.class
-com/ecommerce/ecommerce/service/CategoryService.class
-com/ecommerce/ecommerce/model/Category.class
-com/ecommerce/ecommerce/repositories/CategoryRepository.class
-com/ecommerce/ecommerce/service/CategoryServiceImpl.class
-com/ecommerce/ecommerce/EcommerceApplication.class
