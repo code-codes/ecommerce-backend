@@ -1,4 +1,9 @@
 package com.ecommerce.ecommerce.service;
 
-public class CartService {
+import com.ecommerce.ecommerce.payload.CartDTO;
+
+public interface CartService {
+    CartDTO addProductToCart(Long productId, Integer quantity);
+
+
 }
