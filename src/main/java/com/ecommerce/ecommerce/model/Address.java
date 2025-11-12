@@ -45,8 +45,9 @@ public class Address {
     private String zipcode;
 
     @ToString.Exclude
-    @ManyToMany(mappedBy = "addresses")
-    private Set<User> users = new java.util.HashSet<>();
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     public Address(String street, String buildingName, String city, String state, String country, String zipcode) {
         this.street = street;
