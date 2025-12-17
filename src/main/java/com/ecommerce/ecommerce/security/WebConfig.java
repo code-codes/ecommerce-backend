@@ -9,6 +9,8 @@ import org.springframework.web.multipart.support.StandardServletMultipartResolve
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+
+//To resolve CORS issues between frontend and backend
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
